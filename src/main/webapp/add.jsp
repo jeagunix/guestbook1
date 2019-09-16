@@ -4,7 +4,7 @@
 <%@page import="kr.co.itcen.guestbook.vo.GuestBookVo"%>
 <%
 	
-	request.setCharacterEncoding("utf-8");
+	request.setCharacterEncoding("utf-8"); // 까먹지말자 한글깨지기 싫으면
 	
 	String name = request.getParameter("name");
 	String password = request.getParameter("password");
